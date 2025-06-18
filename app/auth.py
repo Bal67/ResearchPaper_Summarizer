@@ -13,11 +13,13 @@ def login():
         st.title("Login")
         username = st.text_input("Username")
         password = st.text_input("Password", type="password")
+
         if st.button("Login"):
             hashed_pw = hashlib.sha256(password.encode()).hexdigest()
             if USER_CREDENTIALS.get(username) == hashed_pw:
                 st.session_state.auth = True
                 st.success("Logged in successfully.")
+                st.experimental_rerun()  # Force rerun with updated state
             else:
-                st.error("Invalid credentials.")
+                st.error("Invalid credentials")
         st.stop()
