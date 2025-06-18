@@ -1,12 +1,12 @@
 import boto3
 import json
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 def call_claude(prompt: str) -> str:
-    client = boto3.client("bedrock-runtime", region_name=os.getenv("AWS_REGION"))
+    client = boto3.client(
+        "bedrock-runtime",
+        region_name="us-east-1"  
+    )
+
     body = {
         "prompt": f"\n\nHuman: {prompt}\n\nAssistant:",
         "max_tokens": 1024,
