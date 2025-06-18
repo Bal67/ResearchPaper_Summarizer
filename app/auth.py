@@ -19,7 +19,7 @@ def login():
             if USER_CREDENTIALS.get(username) == hashed_pw:
                 st.session_state.auth = True
                 st.success("Logged in successfully.")
-                st.experimental_rerun()  # Force rerun with updated state
+                st.rerun()  
             else:
                 st.error("Invalid credentials")
         st.stop()
