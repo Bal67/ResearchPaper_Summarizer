@@ -4,7 +4,7 @@ A full-stack AI application for uploading and summarizing research papers using 
 
 ## Demo
 
-<img src="docs/research_paper_summarizer.mov" width="1000"/>
+<video src="docs/research_paper_summarizer.mov" width="1000"/>
 
 ## Features
 
