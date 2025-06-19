@@ -9,7 +9,7 @@ def call_claude(prompt: str) -> str:
 
     body = {
         "prompt": f"\n\nHuman: {prompt}\n\nAssistant:",
-        "max_tokens": 1024,
+        "max_tokens_to_sample": 1024,
         "temperature": 0.5,
     }
 
