@@ -2,6 +2,10 @@
 
 A full-stack AI application for uploading and summarizing research papers using Amazon Bedrock (Claude 3 Sonnet) and Streamlit.
 
+## Demo
+
+<img src="docs/research_paper_summarizer.gif" width="1000"/>
+
 ## Features
 
 - Upload a PDF research paper
