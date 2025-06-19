@@ -14,3 +14,11 @@
 2025-06-19 14:14:42,074 | INFO | User: demo | Action: Summarize | Meta: 146fbd39-e315-4db2-9543-6093f6cbea07.pdf
 2025-06-19 14:18:35,157 | INFO | User: demo | Action: Summarize | Meta: 146fbd39-e315-4db2-9543-6093f6cbea07.pdf
 2025-06-19 14:18:35,171 | INFO | Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-19 14:20:38,086 | INFO | User: demo | Action: Summarize | Meta: 146fbd39-e315-4db2-9543-6093f6cbea07.pdf
+2025-06-19 14:20:38,101 | INFO | Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-19 14:20:58,062 | INFO | User: demo | Action: Summarize | Meta: Example_Research_Paper.pdf
+2025-06-19 14:21:39,483 | INFO | User: demo | Action: Summarize | Meta: 146fbd39-e315-4db2-9543-6093f6cbea07.pdf
+2025-06-19 14:21:48,762 | INFO | User: demo | Action: Summarize | Meta: 146fbd39-e315-4db2-9543-6093f6cbea07.pdf
+2025-06-19 14:22:48,785 | INFO | User: demo | Action: Summarize | Meta: 146fbd39-e315-4db2-9543-6093f6cbea07.pdf
+2025-06-19 14:27:28,850 | INFO | User: demo | Action: Summarize | Meta: 146fbd39-e315-4db2-9543-6093f6cbea07.pdf
+2025-06-19 14:29:10,865 | INFO | User: demo | Action: Summarize | Meta: FULLTEXT01.pdf
