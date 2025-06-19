@@ -12,3 +12,5 @@
 2025-06-19 14:13:34,349 | INFO | User: demo | Action: Summarize | Meta: Example_Research_Paper.pdf
 2025-06-19 14:13:34,363 | INFO | Found credentials in shared credentials file: ~/.aws/credentials
 2025-06-19 14:14:42,074 | INFO | User: demo | Action: Summarize | Meta: 146fbd39-e315-4db2-9543-6093f6cbea07.pdf
+2025-06-19 14:18:35,157 | INFO | User: demo | Action: Summarize | Meta: 146fbd39-e315-4db2-9543-6093f6cbea07.pdf
+2025-06-19 14:18:35,171 | INFO | Found credentials in shared credentials file: ~/.aws/credentials

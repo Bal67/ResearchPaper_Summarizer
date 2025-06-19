@@ -2,15 +2,15 @@ import boto3
 import json
 
 def call_claude(prompt: str) -> str:
-    client = boto3.client(
-        "bedrock-runtime",
-        region_name="us-east-1"  
-    )
+    client = boto3.client("bedrock-runtime", region_name="us-east-1")
 
     body = {
-        "prompt": f"\n\nHuman: {prompt}\n\nAssistant:",
-        "max_tokens_to_sample": 1024,
+        "messages": [
+            {"role": "user", "content": prompt}
+        ],
+        "max_tokens": 1024,
         "temperature": 0.5,
+        "anthropic_version": "bedrock-2023-05-31"
     }
 
     response = client.invoke_model(
@@ -21,4 +21,4 @@ def call_claude(prompt: str) -> str:
     )
 
     result = json.loads(response["body"].read())
-    return result["completion"]
+    return result["content"][0]["text"]
