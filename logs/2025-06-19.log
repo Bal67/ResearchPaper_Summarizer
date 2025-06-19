@@ -1,0 +1,7 @@
+2025-06-19 11:39:43,192 | INFO | User: demo | Action: Summarize | Meta: Example_Research_Paper.pdf
+2025-06-19 11:39:43,211 | INFO | Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-19 12:54:44,460 | INFO | User: demo | Action: Summarize | Meta: Example_Research_Paper.pdf
+2025-06-19 12:56:24,415 | INFO | User: demo | Action: Summarize | Meta: Example_Research_Paper.pdf
+2025-06-19 12:56:24,429 | INFO | Found credentials in shared credentials file: ~/.aws/credentials
+2025-06-19 13:05:51,398 | INFO | User: demo | Action: Summarize | Meta: Example_Research_Paper.pdf
+2025-06-19 13:05:51,413 | INFO | Found credentials in shared credentials file: ~/.aws/credentials
