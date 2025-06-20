@@ -4,7 +4,7 @@ A full-stack AI application for uploading and summarizing research papers using 
 
 ## Demo
 
-<video src='https://github.com/Bal67/ResearchPaper_Summarizer/blob/main/docs/research_paper_summarizer.mp4'></video>
+https://github.com/Bal67/ResearchPaper_Summarizer/blob/main/docs/research_paper_summarizer.mp4
 
 ## Features
 
